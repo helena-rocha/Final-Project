@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body onload="startbuttondisapear()"> 
+  <title>auto backgroundchange</title>
+    <style type="text/css">
+    body{
+      animation: change 10s infinite;
+    }
+    @keyframes change{
+      0%{background-color: #1abc9c;}
+      25%{background-color: #2ecc71;} 
+      50%{background-color: #3498db;}
+      75%{background-color: #9b59b6;}
+      100%{background-color: #e74c3c;}
+    }
+    
+    </style>
+    <h1>Riddle Website</h1>
+    <p id="instructions"></p>
+    <div id="first-riddle">
+    <p>1. What has to be broken before you can use it?</p>
+    <input type="text" id="answer-1">
+    <button id="button-1">Click me</button>
+    <p id="paragraph"></p><br>
+    <p>Hint: It comes from chickens</p>
+    <img src="./Images/chicken.png" alt="chicken" width="50%" height="50%" id='chicken.png1'><br>
+    <p>Go to this link to draw something:</p>
+    <a id="drawing" href="https://editor.p5js.org/shehnila2005/full/UatfCWvjh">Drawing website</a><br>
+    <br><button onclick="disapear_button1()">Next question</button>
+    </div>
+    <div id="second-riddle">
+    <p>2. What goes up but never comes down?</p>
+    <input type="text" id='answer-2'>
+    <button id="button-2">Click me</button>
+    <p id="paragraph-2"></p><br>
+    <p>Hint:</p>
+    <img src="./Images/growing.jpeg" alt="growing" width="50%" height="50%" class='growing.png'><br>
+    <p>Go to this link to play a maze game:</p>
+    <a id="drawing" href="https://helena-rocha.github.io/maze/">Maze game</a><br>
+    <br><button onclick="disapear_button2()">Next question</button>
+    </div>
+    <div id="third-riddle">
+    <p>3. What is full of holes but still holds water?</p>
+    <input type="text" id="answer-3">
+    <button id="button-3">Click me</button>
+    <p id="paragraph-3"></p><br>
+    <p>Hint:</p>
+    <img src="./Images/spongebob.webp" alt="spongebob" width="50%" height="50%" class='spongebob.png'>
+    <br><button onclick="disapear_button3()">Next question</button>
+    </div>
+    <div id="fourth-riddle">
+    <p>4. Mr. red lives in the red house, Mr. yellow lives in the yellow house, who lives in the white house?</p>
+    <input type="text" id="answer-4">
+    <button id="button-4">Click me</button>
+    <p id="paragraph-4"></p><br>
+    <p>Hint:</p>
+    <img src="./Images/download.jfif" alt="white house" width="50%" height="50%" class='download.jfif'>
+    <br><button onclick="disapear_button4()">Next question</button>
+    </div>
+    <div id="fifth-riddle">
+    <p>5. What month of the year has 28 days?</p>
+    <input type="text" id="answer-5">
+    <button id="button-5">Click me</button>
+    <p id="paragraph-5"></p><br>
+    <p>Hint:</p>
+    <img src="./Images/months.jfif" alt="months" width="50%" height="50%" class='months.jfif'>
+    <br><button onclick="disapear_button5()">Next question</button>
+    </div>
+    <div id="sixth-riddle">
+    <p>6. What gets wet while drying?</p>
+    <input type="text" id="answer-6">
+    <button id="button-6">Click me</button>
+    <p id="paragraph-6"></p><br>
+    <p>Hint:</p>
+    <img src="./Images/towel.png" alt="towel" width="50%" height="50%" class='towel.png'>
+    <br><button onclick="disapear_button6()">Next question</button>
+    </div>
+    <div id="seventh-riddle">
+    <p>7. I shave every day, but my beard stays the same. What am I?</p>
+    <input type="text" id="answer-7">
+    <button id="button-7">Click me</button>
+    <p id="paragraph-7"></p><br>
+    <p>Hint:</p>
+    <img src="./Images/barber.jpg" alt="barber" width="50%" height="50%" class='barber.jpg'>
+    <br><button onclick="disapear_button7()">Next question</button>
+    </div>
+    <div id="eighth-riddle">
+    <p>8. What can’t talk but will reply when spoken to?</p>
+    <input type="text" id="answer-8">
+    <button id="button-8">Click me</button>
+    <p id="paragraph-8"></p><br>
+    <p>Hint:</p>
+    <img src="./Images/echo.txt" alt="echo" width="50%" height="50%" class='echo.txt'>
+    <br><button onclick="disapear_button8()">Next question</button>
+    </div><br>
+    <div id='dont-click-me'>
+    <button id="button9">DO NOT CLICK ME OR YOU WILL BE STUCK FOREVER</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
