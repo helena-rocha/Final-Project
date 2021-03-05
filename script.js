@@ -14,8 +14,9 @@ function startbuttondisapear () {
   document.getElementById('seventh-riddle').style.display = 'none'
   document.getElementById('eighth-riddle').style.display = 'none'
   document.getElementById('dont-click-me').style.display = 'none'
-}
+};
 
+document.getElementById('starting').addEventListener('load', startbuttondisapear)
 document.getElementById('button-1').addEventListener('click', function1)
 document.getElementById('button-2').addEventListener('click', function2)
 document.getElementById('button-3').addEventListener('click', function3)
