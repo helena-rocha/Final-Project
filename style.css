@@ -1,63 +1,92 @@
-.background {
-  background-color: azure;
-}
-
 h1 {
   text-shadow: 2px 2px;
+  text-align: center;
 }
 
 #first-riddle {
-  width: 400px;
+  width: 600px;
   padding: 10px;
   border: 5px solid black;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #second-riddle {
-  width: 400px;
+  width: 600px;
   padding: 10px;
   border: 5px solid black;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #third-riddle {
-  width: 400px;
+  width: 600px;
   padding: 10px;
   border: 5px solid black;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #fourth-riddle {
-  width: 400px;
+  width: 600px;
   padding: 10px;
   border: 5px solid black;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #fifth-riddle {
-  width: 400px;
+  width: 600px;
   padding: 10px;
   border: 5px solid black;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #sixth-riddle {
-  width: 400px;
+  width: 600px;
   padding: 10px;
   border: 5px solid black;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #seventh-riddle {
-  width: 400px;
+  width: 600px;
   padding: 10px;
   border: 5px solid black;
-  margin: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #eighth-riddle {
+  width: 600px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#dont-click-me {
   width: 400px;
   padding: 10px;
   border: 5px solid black;
-  margin: 0;
+  margin: auto;
+  text-align: center;
 }
