@@ -156,9 +156,9 @@ const myAge = 16
 let answer = 0
 
 function donotclickme () {
-  while (myAge != answer) {
+  while (myAge !== answer) {
     answer = prompt('guess my age')
-    if (answer == myAge) {
+    if (answer === myAge) {
       alert('You got it right!')
     } else if (answer < myAge) {
       alert('You guessed to small, please try again')
