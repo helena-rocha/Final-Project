@@ -1,4 +1,4 @@
-//Added const names for the instructions//
+// Added const names for the instructions//
 const names = ['1. First instruction, do not make any spelling mistakes, make sure you enter a specific answer ', ' 2. Second instruction, after inserting your answer click the "Enter" button on the right ', ' 3.Third instruction, after entering your answer (you can try as many times as you want), you may check out the games we created or click the "Next question" button to skip to the next question ', ' 4. Fourth instruction, do not search up answers because then you are not playing fairly ', ' 5. Fifth instruction, when you get to the bottom of the quiz, do not click the button if you do not want to complete the ultimate riddle (there will be consequences) ', ' 6. Sixth instruction, make sure to keep track of your score ', ' 7. Seventh instruction, HAVE FUN!!']
 // Connected the const names to a paragraph tag in index.html called "instructions", so that it can be displayed as text on the website//
 for (let i = 0; i < names.length; i++) {
@@ -24,6 +24,14 @@ document.getElementById('button-5').addEventListener('click', function5)
 document.getElementById('button-6').addEventListener('click', function6)
 document.getElementById('button-7').addEventListener('click', function7)
 document.getElementById('button-8').addEventListener('click', function8)
+/* document.getElementById('disapear-button1').addEventListener('click', disapear_button1)
+document.getElementById('disapear-button2').addEventListener('click', disapear_button1)
+document.getElementById('disapear-button3').addEventListener('click', disapear_button1)
+document.getElementById('disapear-button4').addEventListener('click', disapear_button1)
+document.getElementById('disapear-button5').addEventListener('click', disapear_button1)
+document.getElementById('disapear-button6').addEventListener('click', disapear_button1)
+document.getElementById('disapear-button7').addEventListener('click', disapear_button1)
+document.getElementById('disapear-button8').addEventListener('click', disapear_button1)*/
 document.getElementById('button9').addEventListener('click', donotclickme)
 // The variables demonstrated bellow connect to the input boxes for each riddle//
 let riddle1 = 0
@@ -102,7 +110,7 @@ function function8 () {
 }
 
 // When clciking the "next question button", it makes the whole section dissapear (by using div tags in HTML) and makes a new section appear, this is repeated 8 times (one for each "Next question" button)//
-function disapear_button1() {
+function disapear_button1 () {
   document.getElementById('first-riddle').style.display = 'none'
   document.getElementById('second-riddle').style.display = 'block'
 }
