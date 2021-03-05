@@ -31,7 +31,7 @@ document.getElementById('disapear-button4').addEventListener('click', disapear_b
 document.getElementById('disapear-button5').addEventListener('click', disapear_button1)
 document.getElementById('disapear-button6').addEventListener('click', disapear_button1)
 document.getElementById('disapear-button7').addEventListener('click', disapear_button1)
-document.getElementById('disapear-button8').addEventListener('click', disapear_button1)*/
+document.getElementById('disapear-button8').addEventListener('click', disapear_button1) */
 document.getElementById('button9').addEventListener('click', donotclickme)
 // The variables demonstrated bellow connect to the input boxes for each riddle//
 let riddle1 = 0
@@ -110,42 +110,42 @@ function function8 () {
 }
 
 // When clciking the "next question button", it makes the whole section dissapear (by using div tags in HTML) and makes a new section appear, this is repeated 8 times (one for each "Next question" button)//
-function disapear_button1 () {
+function disapearbutton1 () {
   document.getElementById('first-riddle').style.display = 'none'
   document.getElementById('second-riddle').style.display = 'block'
 }
 
-function disapear_button2 () {
+function disapearbutton2 () {
   document.getElementById('second-riddle').style.display = 'none'
   document.getElementById('third-riddle').style.display = 'block'
 }
 
-function disapear_button3 () {
+function disapearbutton3 () {
   document.getElementById('third-riddle').style.display = 'none'
   document.getElementById('fourth-riddle').style.display = 'block'
 }
 
-function disapear_button4 () {
+function disapearbutton4 () {
   document.getElementById('fourth-riddle').style.display = 'none'
   document.getElementById('fifth-riddle').style.display = 'block'
 }
 
-function disapear_button5 () {
+function disapearbutton5 () {
   document.getElementById('fifth-riddle').style.display = 'none'
   document.getElementById('sixth-riddle').style.display = 'block'
 }
 
-function disapear_button6 () {
+function disapearbutton6 () {
   document.getElementById('sixth-riddle').style.display = 'none'
   document.getElementById('seventh-riddle').style.display = 'block'
 }
 
-function disapear_button7 () {
+function disapearbutton7 () {
   document.getElementById('seventh-riddle').style.display = 'none'
   document.getElementById('eighth-riddle').style.display = 'block'
 }
 
-function disapear_button8 () {
+function disapearbutton8 () {
   document.getElementById('eighth-riddle').style.display = 'none'
   document.getElementById('dont-click-me').style.display = 'block'
 }
